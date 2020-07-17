@@ -1,0 +1,11 @@
+.imagem{
+    width: 90%;
+    margin-left: 2%;
+    }
+
+.inferior{
+    float:bottom;
+}
+.menu{
+    position: static;
+  }

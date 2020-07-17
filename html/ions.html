@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title> Exercitando</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="../css/main.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/treino.css"/>
+        <script type="text/javascript" src="../js/ions.js"></script>
+        <script src="../js/info.json"></script>
+        <style>
+            #menu{
+                position: static;
+            }
+        </style>
+    </head>
+      <body >
+        <div class = "container">
+            <div class="cabecalho row">
+                <h1 class="h1">Íons</h1>
+            </div>
+            <div class="row">
+                <h2>Agora é sua vez de tentar!Distribua o seguite íon:</h2>
+                <br>
+                <div class="col-md" id="elemento">
+                    <sup><h6 style="display:inline;" id="numeroAtomico"></h6></sup>
+                    <h3 id="elementoQuimico"></h3><sup id="sinal"></sup>
+                </div>
+
+                <div class="col-md" >
+                    <button class="botao-azul" onclick="verificarIons()" >Verificar</button>
+                    <button class="botao-azul" onclick="escolherIons()"> Escolher</button>
+                    <button class="botao-azul" onclick="sortearIons()">Sortear</button>
+
+                </div>
+                <div class = "container" style="padding:5px">
+                    <textarea autofocus class="resposta-usuario" id="respostaUser" rows="5" ></textarea>
+                    <div id="resultado"></div>
+                    <div id="respostaUserDiv"></div>
+                    <div id="resposta"></div>
+                    <div id="info">
+                        <p id="nivelMaisEnergetico"></p>
+                        <p id="nivelMaisExterno"></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <a href="../index.html" >
+                <img src="../img/home.svg" class="icon"><br>
+                <span>QuimiLOL</span>
+            </a>
+            <a href="escolha.html" class="active">
+                <img src="../img/tablet.svg" class="icon"><br>
+                <span>Distribuidor</span>
+            </a>
+            <a href="tabela.html">
+                <img src="../img/tab.svg" class="icon"><br>
+                <span>Tabela</span>
+            </a>
+        </div>
+    </body>
+</html>

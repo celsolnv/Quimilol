@@ -1,0 +1,954 @@
+var json = [
+   {
+      "numAtomico":"1",
+      "nome":"H",
+      "distribuicao":"1s0",
+      "carga":"1",
+      "energetico":"1s",
+      "externo":"1s"
+   },
+   {
+      "numAtomico":"2",
+      "nome":"He",
+      "distribuicao":"1s2 ",
+      "carga":"0",
+      "energetico":"1s",
+      "externo":"1s"
+   },
+   {
+      "numAtomico":"3",
+      "nome":"Li",
+      "distribuicao":"1s2 ",
+      "carga":"1",
+      "energetico":"2s",
+      "externo":"2s"
+   },
+   {
+      "numAtomico":"4",
+      "nome":"Be",
+      "distribuicao":"1s2 ",
+      "carga":"2",
+      "energetico":"2s",
+      "externo":"2s"
+   },
+   {
+      "numAtomico":"5",
+      "nome":"B",
+      "distribuicao":"1s2 2s2 2p1",
+      "carga":"0",
+      "energetico":"2p",
+      "externo":"2p"
+   },
+   {
+      "numAtomico":"6",
+      "nome":"C",
+      "distribuicao":"1s2 2s2 2p6",
+      "carga":"-4",
+      "energetico":"2p",
+      "externo":"2p"
+   },
+   {
+      "numAtomico":"7",
+      "nome":"N",
+      "distribuicao":"1s2 2s2 2p6",
+      "carga":"-3",
+      "energetico":"2p",
+      "externo":"2p"
+   },
+   {
+      "numAtomico":"8",
+      "nome":"O",
+      "distribuicao":"1s2 2s2 2p6",
+      "carga":"-2",
+      "energetico":"2p",
+      "externo":"2p"
+   },
+   {
+      "numAtomico":"9",
+      "nome":"F",
+      "distribuicao":"1s2 2s2 2p6",
+      "carga":"-1",
+      "energetico":"2p",
+      "externo":"2p"
+   },
+   {
+      "numAtomico":"10",
+      "nome":"Ne",
+      "distribuicao":"1s2 2s2 2p6",
+      "carga":"0",
+      "energetico":"2p",
+      "externo":"2p"
+   },
+   {
+      "numAtomico":"11",
+      "nome":"Na",
+      "distribuicao":"1s2 2s2 2p6  ",
+      "carga":"1",
+      "energetico":"3s",
+      "externo":"3s"
+   },
+   {
+      "numAtomico":"12",
+      "nome":"Mg",
+      "distribuicao":"1s2 2s2 2p6  ",
+      "carga":"2",
+      "energetico":"3s",
+      "externo":"3s"
+   },
+   {
+      "numAtomico":"13",
+      "nome":"Al",
+      "distribuicao":"1s2 2s2 2p6  ",
+      "carga":"3",
+      "energetico":"2p",
+      "externo":"2p"
+   },
+   {
+      "numAtomico":"14",
+      "nome":"Si",
+      "distribuicao":"1s2 2s2 2p6 3s2 3p6 ",
+      "carga":"-4",
+      "energetico":"3p",
+      "externo":"3p"
+   },
+   {
+      "numAtomico":"15",
+      "nome":"P",
+      "distribuicao":"1s2 2s2 2p63s2 3p6 ",
+      "carga":"-3",
+      "energetico":"3p",
+      "externo":"3p"
+   },
+   {
+      "numAtomico":"16",
+      "nome":"S",
+      "distribuicao":"1s2 2s2 2p6 3s2 3p6",
+      "carga":"-2",
+      "energetico":"3p",
+      "externo":"3p"
+   },
+   {
+      "numAtomico":"17",
+      "nome":"Cl",
+      "distribuicao":"1s2 2s2 2p6 3s2 3p6",
+      "carga":"-1",
+      "energetico":"3p",
+      "externo":"3p"
+   },
+   {
+      "numAtomico":"18",
+      "nome":"Ar",
+      "distribuicao":"1s2 2s2 2p6 3s2 3p6 ",
+      "carga":"0",
+      "energetico":"3p",
+      "externo":"3p"
+   },
+   {
+      "numAtomico":"19",
+      "nome":"K",
+      "distribuicao":"1s2 2s2 2p6 3s2 3p6 ",
+      "carga":"1",
+      "energetico":"3p",
+      "externo":"3p"
+   },
+   {
+      "numAtomico":"20",
+      "nome":"Ca",
+      "distribuicao":"1s2 2s2 2p6 3s2 3p6 ",
+      "carga":"2",
+      "energetico":"3p",
+      "externo":"3p"
+   },
+   {
+      "numAtomico":"21",
+      "nome":"Sc",
+      "distribuicao":"1s2 2s2 2p6 3s2 3p6 3d1 ",
+      "carga":"2",
+      "energetico":"3d",
+      "externo":"3d"
+   },
+   {
+      "numAtomico":"22",
+      "nome":"Ti",
+      "distribuicao":"1s2 2s2 2p6 3s2 3p6 3d2 ",
+      "carga":"2",
+      "energetico":"3d",
+      "externo":"3d"
+   },
+   {
+      "numAtomico":"23",
+      "nome":"V",
+      "distribuicao":"1s2 2s2 2p6 3s2 3p6   3d3 ",
+      "carga":"2",
+      "energetico":"3d",
+      "externo":"3d"
+   },
+   {
+      "numAtomico":"24",
+      "nome":"Cr",
+      "distribuicao":"1s2 2s2 2p6 3s2 3p6  3d4",
+      "carga":"2",
+      "energetico":"3d",
+      "externo":"3d"
+   },
+   {
+      "numAtomico":"25",
+      "nome":"Mn",
+      "distribuicao":"1s2 2s2 2p6 3s2 3p6 4s2 3d5 ",
+      "carga":"2",
+      "energetico":"3d",
+      "externo":"3d"
+   },
+   {
+      "numAtomico":"26",
+      "nome":"Fe",
+      "distribuicao":"1s2 2s2 2p6 3s2 3p6 3d6",
+      "carga":"2",
+      "energetico":"3d",
+      "externo":"3d"
+   },
+   {
+      "numAtomico":"27",
+      "nome":"Co",
+      "distribuicao":"1s2 2s2 2p6 3s2 3p6 4s2 3d7 ",
+      "carga":"2",
+      "energetico":"3d",
+      "externo":"3d"
+   },
+   {
+      "numAtomico":"28",
+      "nome":"Ni",
+      "distribuicao":"1s2 2s2 2p6 3s2 3p6 4s2 3d8 ",
+      "carga":"2",
+      "energetico":"3d",
+      "externo":"3d"
+   },
+   {
+      "numAtomico":"29",
+      "nome":"Cu",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  3d10",
+      "carga":"1",
+      "energetico":"3d",
+      "externo":"3d"
+   },
+   {
+      "numAtomico":"30",
+      "nome":"Zn",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10",
+      "carga":"2",
+      "energetico":"3d",
+      "externo":"3d"
+   },
+   {
+      "numAtomico":"31",
+      "nome":"Ga",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p1",
+      "carga":"1",
+      "energetico":"4p",
+      "externo":"4p"
+   },
+   {
+      "numAtomico":"32",
+      "nome":"Ge",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p2",
+      "carga":"-4",
+      "energetico":"4p",
+      "externo":"4p"
+   },
+   {
+      "numAtomico":"33",
+      "nome":"As",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6",
+      "carga":"-3",
+      "energetico":"4p",
+      "externo":"4p"
+   },
+   {
+      "numAtomico":"34",
+      "nome":"Se",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6",
+      "carga":"-2",
+      "energetico":"4p",
+      "externo":"4p"
+   },
+   {
+      "numAtomico":"35",
+      "nome":"Br",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6",
+      "carga":"-1",
+      "energetico":"4p",
+      "externo":"4p"
+   },
+   {
+      "numAtomico":"36",
+      "nome":"Kr",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6",
+      "carga":"0",
+      "energetico":"4p",
+      "externo":"4p"
+   },
+   {
+      "numAtomico":"37",
+      "nome":"Rb",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 ",
+      "carga":"1",
+      "energetico":"4p",
+      "externo":"4p"
+   },
+   {
+      "numAtomico":"38",
+      "nome":"Sr",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 ",
+      "carga":"2",
+      "energetico":"4p",
+      "externo":"4p"
+   },
+   {
+      "numAtomico":"39",
+      "nome":"Y",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 ",
+      "carga":"3",
+      "energetico":"4p",
+      "externo":"4p"
+   },
+   {
+      "numAtomico":"40",
+      "nome":"Zr",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6  4d2",
+      "carga":"2",
+      "energetico":"4d",
+      "externo":"4d"
+   },
+   {
+      "numAtomico":"41",
+      "nome":"Nb",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6  4d4",
+      "carga":"1",
+      "energetico":"4d",
+      "externo":"4d"
+   },
+   {
+      "numAtomico":"42",
+      "nome":"Mo",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6  4d5",
+      "carga":"1",
+      "energetico":"4d",
+      "externo":"4d"
+   },
+   {
+      "numAtomico":"43",
+      "nome":"Tc",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d5",
+      "carga":"2",
+      "energetico":"4d",
+      "externo":"4d"
+   },
+   {
+      "numAtomico":"44",
+      "nome":"Ru",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6  4d7",
+      "carga":"1",
+      "energetico":"4d",
+      "externo":"4d"
+   },
+   {
+      "numAtomico":"45",
+      "nome":"Rh",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6  4d8",
+      "carga":"1",
+      "energetico":"4d",
+      "externo":"4d"
+   },
+   {
+      "numAtomico":"46",
+      "nome":"Pd",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 4d10",
+      "carga":"0",
+      "energetico":"4d",
+      "externo":"4d"
+   },
+   {
+      "numAtomico":"47",
+      "nome":"Ag",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 4d10",
+      "carga":"1",
+      "energetico":"4d",
+      "externo":"5s"
+   },
+   {
+      "numAtomico":"48",
+      "nome":"Cd",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10",
+      "carga":"2",
+      "energetico":"4d",
+      "externo":"4d"
+   },
+   {
+      "numAtomico":"49",
+      "nome":"In",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10  5p1",
+      "carga":"1",
+      "energetico":"5p",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"50",
+      "nome":"Sn",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p2",
+      "carga":"-4",
+      "energetico":"5p",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"51",
+      "nome":"Sb",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p3",
+      "carga":"-3",
+      "energetico":"5p",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"52",
+      "nome":"Te",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p4",
+      "carga":"-2",
+      "energetico":"5p",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"53",
+      "nome":"I",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p5",
+      "carga":"-1",
+      "energetico":"5p",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"54",
+      "nome":"Xe",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6",
+      "carga":"0",
+      "energetico":"5p",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"55",
+      "nome":"Cs",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s1",
+      "carga":"1",
+      "energetico":"6s",
+      "externo":"6s"
+   },
+   {
+      "numAtomico":"56",
+      "nome":"Ba",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2",
+      "carga":"2",
+      "energetico":"6s",
+      "externo":"6s"
+   },
+   {
+      "numAtomico":"57",
+      "nome":"La",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6 4f14 5d1",
+      "carga":"2",
+      "energetico":"4f",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"58",
+      "nome":"Ce",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6 ",
+      "carga":"4",
+      "energetico":"4f",
+      "externo":"5d"
+   },
+   {
+      "numAtomico":"59",
+      "nome":"Pr",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f3",
+      "carga":"2",
+      "energetico":"4f",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"60",
+      "nome":"Nd",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f4",
+      "carga":"2",
+      "energetico":"4f",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"61",
+      "nome":"Pm",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f5",
+      "carga":"2",
+      "energetico":"4f",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"62",
+      "nome":"Sm",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f6",
+      "carga":"2",
+      "energetico":"4f",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"63",
+      "nome":"Eu",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f7",
+      "carga":"2",
+      "energetico":"4f",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"64",
+      "nome":"Gd",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  4f7 ",
+      "carga":"3",
+      "energetico":"4f",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"65",
+      "nome":"Tb",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f9",
+      "carga":"2",
+      "energetico":"4f",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"66",
+      "nome":"Dy",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f10",
+      "carga":"2",
+      "energetico":"4f",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"67",
+      "nome":"Ho",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f11",
+      "carga":"2",
+      "energetico":"4f",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"68",
+      "nome":"Er",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f12",
+      "carga":"2",
+      "energetico":"4f",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"69",
+      "nome":"Tm",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f13",
+      "carga":"2",
+      "energetico":"4f",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"70",
+      "nome":"Yb",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14",
+      "carga":"2",
+      "energetico":"4f",
+      "externo":"5p"
+   },
+   {
+      "numAtomico":"71",
+      "nome":"Lu",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d1",
+      "carga":"2",
+      "energetico":"5d",
+      "externo":"6s"
+   },
+   {
+      "numAtomico":"72",
+      "nome":"Hf",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d2",
+      "carga":"2",
+      "energetico":"5d",
+      "externo":"6s"
+   },
+   {
+      "numAtomico":"73",
+      "nome":"Ta",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d3",
+      "carga":"2",
+      "energetico":"5d",
+      "externo":"6s"
+   },
+   {
+      "numAtomico":"74",
+      "nome":"W",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d4",
+      "carga":"2",
+      "energetico":"5d",
+      "externo":"6s"
+   },
+   {
+      "numAtomico":"75",
+      "nome":"Re",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d5",
+      "carga":"2",
+      "energetico":"5d",
+      "externo":"6s"
+   },
+   {
+      "numAtomico":"76",
+      "nome":"Os",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d6",
+      "carga":"2",
+      "energetico":"5d",
+      "externo":"6s"
+   },
+   {
+      "numAtomico":"77",
+      "nome":"Ir",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d7",
+      "carga":"2",
+      "energetico":"5d",
+      "externo":"5d"
+   },
+   {
+      "numAtomico":"78",
+      "nome":"Pt",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  4f14  5d8",
+      "carga":"2",
+      "energetico":"5d",
+      "externo":"6s"
+   },
+   {
+      "numAtomico":"79",
+      "nome":"Au",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6 4f14  5d10",
+      "carga":"1",
+      "energetico":"5d",
+      "externo":"5d"
+   },
+   {
+      "numAtomico":"80",
+      "nome":"Hg",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  4f14  5d10",
+      "carga":"2",
+      "energetico":"5d",
+      "externo":"5d"
+   },
+   {
+      "numAtomico":"81",
+      "nome":"Tl",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p1",
+      "carga":"1",
+      "energetico":"6p",
+      "externo":"6p"
+   },
+   {
+      "numAtomico":"82",
+      "nome":"Pb",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  ",
+      "carga":"2",
+      "energetico":"5d",
+      "externo":"6s"
+   },
+   {
+      "numAtomico":"83",
+      "nome":"Bi",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  ",
+      "carga":"3",
+      "energetico":"5d",
+      "externo":"6s"
+   },
+   {
+      "numAtomico":"84",
+      "nome":"Po",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p4",
+      "carga":"-2",
+      "energetico":"6p",
+      "externo":"6p"
+   },
+   {
+      "numAtomico":"85",
+      "nome":"At",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p5",
+      "carga":"-1",
+      "energetico":"6p",
+      "externo":"6p"
+   },
+   {
+      "numAtomico":"86",
+      "nome":"Rn",
+      "distribuicao":"\t1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6",
+      "carga":"0",
+      "energetico":"6p",
+      "externo":"6p"
+   },
+   {
+      "numAtomico":"87",
+      "nome":"Fr",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6  ",
+      "carga":"1",
+      "energetico":"6p",
+      "externo":"6p"
+   },
+   {
+      "numAtomico":"88",
+      "nome":"Ra",
+      "distribuicao":"\t1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6  ",
+      "carga":"2",
+      "energetico":"6p",
+      "externo":"6p"
+   },
+   {
+      "numAtomico":"89",
+      "nome":"Ac",
+      "distribuicao":"\t1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6 6d1",
+      "carga":"2",
+      "energetico":"6d",
+      "externo":"6d"
+   },
+   {
+      "numAtomico":"90",
+      "nome":"Th",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6  6d2",
+      "carga":"2",
+      "energetico":"6d",
+      "externo":"6d"
+   },
+   {
+      "numAtomico":"91",
+      "nome":"Pa",
+      "distribuicao":"\t1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6  5f2  6d1",
+      "carga":"2",
+      "energetico":"5f",
+      "externo":"6d"
+   },
+   {
+      "numAtomico":"92",
+      "nome":"U",
+      "distribuicao":"\t1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6  5f3  6d1",
+      "carga":"2",
+      "energetico":"6d",
+      "externo":"6d"
+   },
+   {
+      "numAtomico":"93",
+      "nome":"Np",
+      "distribuicao":"\t1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6  5f4  6d1",
+      "carga":"2",
+      "energetico":"6d",
+      "externo":"6d"
+   },
+   {
+      "numAtomico":"94",
+      "nome":"Pu",
+      "distribuicao":"\t1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6  7s2  5f6",
+      "carga":"2",
+      "energetico":"5f",
+      "externo":"6p"
+   },
+   {
+      "numAtomico":"95",
+      "nome":"Am",
+      "distribuicao":"\t1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6  5f7",
+      "carga":"2",
+      "energetico":"5f",
+      "externo":"6p"
+   },
+   {
+      "numAtomico":"96",
+      "nome":"Cm",
+      "distribuicao":"\t1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6  5f7  6d1",
+      "carga":"2",
+      "energetico":"5f",
+      "externo":"6p"
+   },
+   {
+      "numAtomico":"97",
+      "nome":"Bk",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6  5f9",
+      "carga":"2",
+      "energetico":"5f",
+      "externo":"6p"
+   },
+   {
+      "numAtomico":"98",
+      "nome":"Cf",
+      "distribuicao":"1s2 2s2  2p6  3s2  3p6  4s2 3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6  7s2  5f10",
+      "carga":"2",
+      "energetico":"5f",
+      "externo":"6p"
+   },
+   {
+      "numAtomico":"99",
+      "nome":"Es",
+      "distribuicao":"\t1s2 2s2  2p6  3s2  3p6  4s2 3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6  7s2  5f11",
+      "carga":"2",
+      "energetico":"5f",
+      "externo":"6p"
+   },
+   {
+      "numAtomico":"100",
+      "nome":"Fm",
+      "distribuicao":"\t1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6  7s2  5f12",
+      "carga":"2",
+      "energetico":"5f",
+      "externo":"6p"
+   },
+   {
+      "numAtomico":"101",
+      "nome":"Md",
+      "distribuicao":"\t1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6  7s2  5f13",
+      "carga":"2",
+      "energetico":"5f",
+      "externo":"6p"
+   },
+   {
+      "numAtomico":"102",
+      "nome":"No",
+      "distribuicao":"\t1s2 2s2  2p6  3s2  3p6  4s2  3d10  4p6  5s2  4d10  5p6  6s2  4f14  5d10  6p6  7s2  5f14",
+      "carga":"2",
+      "energetico":"5f",
+      "externo":"6p"
+   },
+   {
+      "numAtomico":"103",
+      "nome":"Lr",
+      "distribuicao":"\t1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  5f14 6d1",
+      "carga":"2",
+      "energetico":"6d",
+      "externo":"6d"
+   },
+   {
+      "numAtomico":"104",
+      "nome":"Rf",
+      "distribuicao":"\t1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d2",
+      "carga":"2",
+      "energetico":"6d",
+      "externo":"7s"
+   },
+   {
+      "numAtomico":"105",
+      "nome":"Db",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d3",
+      "carga":"2",
+      "energetico":"6d",
+      "externo":"7s"
+   },
+   {
+      "numAtomico":"106",
+      "nome":"Sg",
+      "distribuicao":"\t1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d4",
+      "carga":"2",
+      "energetico":"6d",
+      "externo":"7s"
+   },
+   {
+      "numAtomico":"107",
+      "nome":"Bh",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d5",
+      "carga":"2",
+      "energetico":"6d",
+      "externo":"7s"
+   },
+   {
+      "numAtomico":"108",
+      "nome":"Hs",
+      "distribuicao":"\t1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d6",
+      "carga":"2",
+      "energetico":"6d",
+      "externo":"7s"
+   },
+   {
+      "numAtomico":"109",
+      "nome":"Mt",
+      "distribuicao":"\t1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d7",
+      "carga":"2",
+      "energetico":"6d",
+      "externo":"7s"
+   },
+   {
+      "numAtomico":"110",
+      "nome":"Ds",
+      "distribuicao":"\t1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d8",
+      "carga":"2",
+      "energetico":"6d",
+      "externo":"7s"
+   },
+   {
+      "numAtomico":"111",
+      "nome":"Rg",
+      "distribuicao":"\t1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d9",
+      "carga":"2",
+      "energetico":"6d",
+      "externo":"7s"
+   },
+   {
+      "numAtomico":"112",
+      "nome":"Cn",
+      "distribuicao":"\t1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d10",
+      "carga":"2",
+      "energetico":"6d",
+      "externo":"7s"
+   },
+   {
+      "numAtomico":"113",
+      "nome":"Nh",
+      "distribuicao":"\t1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d10  7p1",
+      "carga":"1",
+      "energetico":"7p",
+      "externo":"7p"
+   },
+   {
+      "numAtomico":"114",
+      "nome":"Fl",
+      "distribuicao":"\t1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d10  7p2",
+      "carga":"-4",
+      "energetico":"7p",
+      "externo":"7p"
+   },
+   {
+      "numAtomico":"115",
+      "nome":"Mc",
+      "distribuicao":"\t1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d10  7p3",
+      "carga":"-3",
+      "energetico":"7p",
+      "externo":"7p"
+   },
+   {
+      "numAtomico":"116",
+      "nome":"Lv",
+      "distribuicao":"\t1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d10  7p4",
+      "carga":"-2",
+      "energetico":"7p",
+      "externo":"7p"
+   },
+   {
+      "numAtomico":"117",
+      "nome":"Ts",
+      "distribuicao":"1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d10  7p5",
+      "carga":"-1",
+      "energetico":"7p",
+      "externo":"7p"
+   },
+   {
+      "numAtomico":"118",
+      "nome":"Og",
+      "distribuicao":"\t1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d10  7p6",
+      "carga":"0",
+      "energetico":"7p",
+      "externo":"7p"
+   },
+   {
+      "numAtomico":"119",
+      "nome":"Uue",
+      "distribuicao":"\t1s2  2s2  2p6  3s2 3p6  4s2  3d10  4p6 5s2  4d10 5p6  6s2 4f14  5d10 6p6  7s2 5f14  6d10  7p6 8s1",
+      "carga":"1",
+      "energetico":"7p",
+      "externo":"8s"
+   }
+]

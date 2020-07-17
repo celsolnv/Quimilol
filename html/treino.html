@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title> Exercitando</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="../css/main.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/treino.css"/>
+        <script type="text/javascript" src="../js/treino.js"></script>
+        
+    </head>
+    <body>
+        <div>
+            <div class="cabecalho" >
+                <h1 class="h1-pequeno">Átomos neutros</h1>
+            </div>
+            <div >
+                <h2>
+                    Exercitando sua aprendizagem...
+                    Escolha o número atômico do elemento e boa distribuição!
+                </h2>
+                
+                <div id="elemento">
+                    <sup><h6 style="display:inline;"></h6></sup><h3></h3>
+                </div>
+
+                <div >
+                    <button class="botao-azul" onclick="verificar()" >Verificar</button>
+                    <button class="botao-azul" onclick="escolher()"> Escolher</button>
+                    <button class="botao-azul" onclick="sortear()">Sortear</button>
+                </div>
+                <div class="container" style="padding:5px">
+                    <textarea autofocus class="resposta-usuario" id="respostaUser" rows="5" ></textarea>
+
+                    <div id="resultado"></div>
+                    <div id="respostaUserDiv"></div>
+                    <div id="resposta"></div>
+                    <div id="info">
+                    <p id="nivelMaisEnergetico"></p>
+                    <p id="nivelMaisExterno"></p>
+
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <a href="../index.html" >
+                <img src="../img/home.svg" class="icon"><br>
+                <span>QuimiLOL</span>
+            </a>
+            <a href="escolha.html" class="active">
+                <img src="../img/tablet.svg" class="icon"><br>
+                <span>Distribuidor</span>
+            </a>
+            <a href="tabela.html">
+                <img src="../img/tab.svg" class="icon"><br>
+                <span>Tabela</span>
+            </a>
+        </div>
+    </body>
+</html>

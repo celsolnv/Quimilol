@@ -1,0 +1,14 @@
+.centro{
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    box-align: center;
+
+}
+.imagem{
+    height: auto;
+    width: auto;
+    margin-left: auto;
+}
+
+

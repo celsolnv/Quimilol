@@ -1,0 +1,65 @@
+#elemento{
+	color: black;
+	padding: 10px 10px;
+}
+h3 {
+	display: inline; 
+}
+.spanIncorreto{
+	color:red;
+}
+.title{
+	font-weight:bold;
+}
+body {
+	position: relative;
+	background-color: white;
+}
+#menu{
+	position: static;
+}
+h2{
+	font-weight: 300;
+	font-size:32px;
+	margin-top: 0;
+}
+button{
+    height:40px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+	font-size: 16px;
+	padding: 6px 12px;	
+	border: none;
+}
+.botao-azul{
+    background-color:#0069d9;
+}
+textarea{
+	font-size: 20px;
+	width: 100%;
+}
+.resposta-usuario{
+	
+	border-color: rgb(226, 201, 201);
+	border-radius: 5px;
+	box-shadow: none;
+}
+textarea:focus{
+
+	border-color: rgb(226, 201, 201);
+	box-shadow: none;
+	box-shadow: 0 0 3pt 2pt rgb(226, 201, 201);
+	outline:none;
+}
+#info{
+	margin-bottom: 100px;
+
+}
+#elemento h3{
+	font-size: 28px;
+	font-weight: 200;
+}
+#resultado p{
+	vertical-align: middle;
+}
