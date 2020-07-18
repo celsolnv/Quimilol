@@ -11,19 +11,19 @@ O aplicativo ainda não se encontra disponível para download por razões burocr
 
 # Características
 
-    <p>
-        O aplicativo tem seu MVP (mínimo produto viável) finalizado. No entando, tem se pensando
-        em lançar uma nova versão futuramente para incluir mais funcionalidades e mudanças no designer.
-        Obs: O atual design do app foi solicidado pelo atual mestre em química (ele buscou deixar as 
-        informações o mais visíveis possível para os dautônicos, visto que ele mesmo é).
-    <p/> 
+<p>
+    O aplicativo tem seu MVP (mínimo produto viável) finalizado. No entando, tem se pensando
+    em lançar uma nova versão futuramente para incluir mais funcionalidades e mudanças no designer.
+    Obs: O atual design do app foi solicidado pelo atual mestre em química (ele buscou deixar as 
+    informações o mais visíveis possível para os dautônicos, visto que ele mesmo é).
+<p/> 
 
-    <p>
-        O aplicativo gira em torno do diagrama de linus, mais conhecido como distribuição eletrônica. 
-        No aplicativo você pode escolher se quer realizar uma distribuição utilizando elementos neutros ou
-        íonizados, além da tela principal conter o diagrama de linus projetado pelo próprio professor.
-        Ah, e não menos importante, no aplicativo também se encontra uma tabela periódica.
-    <p/> 
+<p>
+    O aplicativo gira em torno do diagrama de linus, mais conhecido como distribuição eletrônica. 
+    No aplicativo você pode escolher se quer realizar uma distribuição utilizando elementos neutros ou
+    íonizados, além da tela principal conter o diagrama de linus projetado pelo próprio professor.
+    Ah, e não menos importante, no aplicativo também se encontra uma tabela periódica.
+<p/> 
 
 <img src="screens/home.PNG"/>
 <img src="screens/tabela.PNG"/>
