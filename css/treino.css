@@ -1,3 +1,7 @@
+.container,.cabecalho{
+	padding: 1rem;
+}
+
 #elemento{
 	color: black;
 	padding: 10px 10px;
